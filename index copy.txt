@@ -5,12 +5,11 @@
   <title>D&D 5e Character Creator (Kid-Friendly)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-
+</head>
 <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:400,400i&display=swap" rel="stylesheet">
     
     <!-- Then link your CSS file -->
     <link rel="stylesheet" href="character-sheet.css">
-</head>
 <body>
 
 <div class="page-container">
@@ -470,9 +469,9 @@ document.getElementById('generate-btn').addEventListener('click', function() {
 
 <!-- === ADD THIS (CodePen D&D 5e character sheet) === -->
 <form class="charsheet" autocomplete="off">
-
+  <header>
     
-  
+    </section>
     <section class="misc">
       <ul>
         <li>
@@ -519,8 +518,8 @@ document.getElementById('generate-btn').addEventListener('click', function() {
         </li>
       </ul>
     </section>
- 
-  <div class="sheet-section">
+  </header>
+  <main>
     <section>
       <section class="attributes">
         <div class="scores">
@@ -715,10 +714,9 @@ document.getElementById('generate-btn').addEventListener('click', function() {
     </div>
   </div>
 </section>
+</body>
 
-</form>
-<div class="section">
-<a href="https://www.paypal.com/paypalme/TurnaFraze?country.x=US&locale.x=en_US" target="_blank" style="text-decoration: none;">
+<a href="https://paypal.me/TurnaFraze?country.x=US&locale.x=en_US" target="_blank" style="text-decoration: none;">
   <button style="
     background-color: #0070ba;
     color: white;
@@ -729,44 +727,41 @@ document.getElementById('generate-btn').addEventListener('click', function() {
     cursor: pointer;">
     💙 Donate via PayPal
   </button>
-
-</a>
-</div>
 <script src="character-generator2.js"></script>
-
+<div>
 <section class="dnd-projects">
     <h2>Other D&D Tools & Projects</h2>
     
     <div class="project-grid">
         <div class="project-card">
-            <img src="arcstrider.png" alt="Arcstrider on Facebook">
-            <h3>Arcstrider</h3>
-            <p class="interest-level">Interest Level: ★★★★☆</p>Arcstrider is a creative innovation studio crafting tools, stories, and experiences that spark momentum. From character-driven systems to community-driven design—this is where ideas evolve into action.Calculate spell slots and manage your spellbook with ease.</p>
-            <a href="#" class="https://www.facebook.com/profile.php?id=100025663193707">Check it out →</a>
+            <img src="spell-calculator.jpg" alt="Spell Calculator">
+            <h3>D&D Spell Calculator</h3>
+            <p class="interest-level">Interest Level: ★★★★☆</p>
+            <p class="description">Calculate spell slots and manage your spellbook with ease.</p>
+            <a href="#" class="project-link">Try it out →</a>
         </div>
 
         <div class="project-card">
             <img src="encounter-builder.jpg" alt="Encounter Builder">
             <h3>Encounter Builder</h3>
             <p class="interest-level">Interest Level: ★★★★★</p>
-            <p class="description">Build balanced random encounters for your party level.</p>
+            <p class="description">Build balanced combat encounters for your party level.</p>
             <a href="#" class="project-link">Build Encounter →</a>
         </div>
 
         <div class="project-card">
             <img src="npc-generator.jpg" alt="NPC Generator">
-            <h3>VibeCheck</h3>
+            <h3>NPC Generator</h3>
             <p class="interest-level">Interest Level: ★★★☆☆</p>
-            <p class="description">Vibecheck is the street-level pulse of local business. Real people, real reviews—based on value, vibe, and focus. No fluff. Just truth.</p>
+            <p class="description">Generate random NPCs with personalities and backgrounds.</p>
             <a href="#" class="project-link">Generate NPC →</a>
         </div>
     </div>
 </section>
 </main>
-
+</div>
 <aside class="ad-space-right">
        <img src="path-to-your-fiction-fights-image.jpg" alt="description">
     </aside>
-</div>
-</body>
+
 </html>
